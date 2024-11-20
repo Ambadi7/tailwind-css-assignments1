@@ -15,15 +15,74 @@
   <body>
     <!-- Margin -->
     <!-- https://tailwindcss.com/docs/margin -->
+     <p class="text-xl">MARGIN</p>
+     <div class=" bg-stone-800 w-50 h-100">
+       <div class=" ml-8 h-12 w-12 bg-fuchsia-500 rounded"><p class="text-center py-2">ml-8</p></div>
+       <div class=" mt-10 h-12 w-12 bg-fuchsia-500 rounded"><p class="text-center py-2">mt-10</p></div>
+       <div class=" ml-40 mb-4 h-12 w-12 bg-fuchsia-500 rounded"><p class="text-center py-2">mb-4</p></div>
+       <div class="bg-stone-800 w-96 h-100">
+        <div class="  mr-10  h-12 w-12 bg-fuchsia-500 rounded"><p class="text-center py-2">mr-10</p></div>
+       </div>
+       
+     </div>
+     <div class="py-12">
+     <div class=" mx-10  h-12 w-12 bg-fuchsia-500 rounded"><p class="text-center py-2">mx-10</p></div>
+    </div>
+    <div class="">
+      <div class=" my-10  h-12 w-12 bg-fuchsia-500 rounded"><p class="text-center py-2">my-10</p></div>
+     </div>
+     <div class=" m-10  h-12 w-12 bg-fuchsia-500 rounded"><p class="text-center py-2">m-10</p></div>
 
     <!-- Arbitrary Spacing -->
      <!-- https://tailwindcss.com/docs/border-spacing#arbitrary-values -->
+     <p class="text-xl">Arbitrary Spacing</p>
+     <table class=" border-separate border-spacing-5 border border-slate-400">
+      <thead>
+        <tr>
+          <th class="border border-slate-400">hello</th>
+
+        </tr>
+      <tbody>
+        <tr>
+          <td class="border border-slate-400">hey</td>
+        </tr>
+        <tr>
+          <td class="border border-slate-400">hiii</td>
+        </tr>
+      </tbody>
+      </thead>
+     </table>
 
     <!-- Padding -->
     <!-- https://tailwindcss.com/docs/padding -->
+    <p class="text-xl">Padding</p>
+    <div class="">
+      <div class=" p-8 h-12 w-12 bg-fuchsia-500 rounded"></div>
+      <div class=" pt-8 h-12 w-12 m-5 bg-fuchsia-500 rounded"></div>
+      <div class=" pr-3 h-12 w-12 m-5 bg-fuchsia-500 rounded"></div>
+      <div class=" pl-8 h-12 w-12 m-5 bg-fuchsia-500 rounded"></div>
+    </div>
 
     <!-- https://tailwindcss.com/docs/space -->
     <!-- Space Between X -->
     <!-- Space Between Y -->
+    <p class="text-xl">space</p>
+    <div class="flex space-x-4">
+      <div class=" h-12 w-12 bg-fuchsia-500 rounded">1</div>
+      <div class=" h-12 w-12 bg-fuchsia-500 rounded">2</div>
+      <div class=" h-12 w-12 bg-fuchsia-500 rounded">3</div>
+    </div>
+
+    <div class="flex flex-col space-y-4 m-2">
+      <div class=" h-12 w-12 bg-fuchsia-500 rounded">1</div>
+      <div class=" h-12 w-12 bg-fuchsia-500 rounded">2</div>
+      <div class=" h-12 w-12 bg-fuchsia-500 rounded">3</div>
+    </div>
+    <p class="text-xl">space Hover</p>
+    <div class="flex space-x-2 hover:space-x-8">
+      <div class=" h-12 w-12 bg-fuchsia-500 rounded">1</div>
+      <div class=" h-12 w-12 bg-fuchsia-500 rounded">2</div>
+      <div class=" h-12 w-12 bg-fuchsia-500 rounded">3</div>
+    </div>
   </body>
 </html>

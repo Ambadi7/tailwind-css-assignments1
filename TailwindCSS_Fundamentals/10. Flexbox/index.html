@@ -9,14 +9,76 @@
   </head>
   <body>
     <!-- https://tailwindcss.com/docs/flex -->
+    <p class="text-2xl">Flex</p> 
+    <div class="flex m-5">
+      <div class="flex-auto w-20 h-20 bg-black"><p class="text-white">flex auto</p></div>
+      <div class="flex-none w-20 h-20 bg-black ml-2"><p class="text-white">flex-none</p></div>
+      <div class="flex-1 w-20 h-20 bg-black ml-2"><p class="text-white">flex-1</p></div>
+      <div class="flex-initial w-20 h-20 bg-black ml-2"><p class="text-white">flex-initial</p></div>
+      
+     </div>
 
     <!-- https://tailwindcss.com/docs/flex-direction#column -->
+     <p class="text-2xl">flex direction</p>
+     <div class="flex flex-row m-5">
+      <div class=" w-20 h-20 bg-black ml-2"><p class="text-white">flex-row</p></div>
+      <div class="w-20 h-20 bg-black ml-2"><p class="text-white">flex-row</p></div>
+      <div class=" w-20 h-20 bg-black ml-2"><p class="text-white">flex-row</p></div>
+
+     </div>
+
+     <div class="flex flex-col m-5">
+      <div class=" w-20 h-20 bg-black ml-2"><p class="text-white">flex-col</p></div>
+      <div class="w-20 h-20 bg-black ml-2"><p class="text-white">flex-col</p></div>
+      <div class=" w-20 h-20 bg-black ml-2"><p class="text-white">flex-col</p></div>
+
+     </div>
+     <div class="flex flex-col-reverse m-5">
+      <div class=" w-20 h-20 bg-black ml-2"><p class="text-white">flex-col-reverse</p></div>
+      <div class="w-20 h-20 bg-black ml-2"><p class="text-white">flex-col-reverse</p></div>
+      <div class=" w-20 h-20 bg-black ml-2"><p class="text-white">flex-col-reverses</p></div>
+
+     </div>
 
     <!-- https://tailwindcss.com/docs/justify-items -->
+     <p class="text-2xl m-4">justify-items</p>
+     <p class="m-5 text-xl">justify-items-start </p>
+     <div class="m-4 grid  justify-items-start space-y-4 ">
+      <div class="w-20 h-20 bg-green-500 ">1</div>
+      <div class="w-20 h-20 bg-green-500">2</div>
+      <div class="w-20 h-20 bg-green-500">3</div>
+     </div>
 
+     
+     <div class="m-4 grid  justify-items-center space-y-4 ">
+      <p class="m-5 text-xl">justify-items-center </p>
+      <div class="w-20 h-20 bg-green-500 ">1</div>
+      <div class="w-20 h-20 bg-green-500">2</div>
+      <div class="w-20 h-20 bg-green-500">3</div>
+     </div>
+
+     <div class="m-4 grid  justify-items-end space-y-4 ">
+      <p class="m-5 text-xl">justify-items-end </p>
+      <div class="w-20 h-20 bg-green-500 ">1</div>
+      <div class="w-20 h-20 bg-green-500">2</div>
+      <div class="w-20 h-20 bg-green-500">3</div>
+     </div>
     <!-- https://tailwindcss.com/docs/order -->
+    <p class="m-5 text-2xl">Order </p>
+    <div class="m-4   flex space-x-4 ">
+      <div class="w-20 h-20 bg-sky-500 order-last ml-4">1</div>
+      <div class="w-20 h-20 bg-sky-500">2</div>
+      <div class="w-20 h-20 bg-sky-500">3</div>
+     </div>
 
     <!-- Grow and shrink -->
     <!-- https://tailwindcss.com/docs/flex-shrink -->
+     <p class="m-5 text-2xl">shrink </p>
+      <div class="m-4 flex space-x-4">
+        <div class="h-14 w-20 bg-blue-500 flex-none">1</div>
+        <div class="shrink h-14 w-96 bg-blue-500">2</div>
+        <div class=" flex-none h-14 w-20 bg-blue-500">3</div>
+      </div>
+
   </body>
 </html>
